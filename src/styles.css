@@ -1,0 +1,107 @@
+/*
+ * Custom CSS
+ */
+
+:root {
+  --bs-body-bg: var(--bs-gray-100);
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  
+  text-transform: uppercase;
+  color: black;
+}
+
+.carousel {
+  width: 500px;
+  margin: 0 auto;
+}
+
+
+.navbar-brand {
+  font-size: 40px;
+}
+
+nav {
+
+  padding: 24px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+  transition: 0.5s ease;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  padding: 20px 0;
+  margin: 0 5px;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+nav a:hover {
+  border-top: 4px solid rgb(0, 0, 0);
+  border-bottom: 4px solid rgb(0, 0, 0);
+  padding: 6px 0; 
+}
+
+.nav-link {
+  transition: 0.3s;
+}
+
+.nav-link:hover{
+  color: rgb(255, 255, 255);
+  background-image: url(/src/pics/logo.jpg);
+  transform: scale(1.1);
+
+}
+
+.navbar-brand{
+  transition: 0.3s;
+}
+
+.navbar-brand:hover{
+  color: transparent;
+  background-image: url(/src/pics/logo.jpg);
+  background-position-y: center;
+  
+}
+
+.dropdown-item{
+  transition: 0.3s;
+}
+
+.dropdown-item:hover{
+  color: rgb(255, 255, 255);
+  background-image: url(/src/pics/logo.jpg);
+}
+
+
+.fa-instagram{
+  font-size: 25px;
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+.bg-cover {
+  background-size: cover !important;
+}
+
+
+.row{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.social-link{
+  color:black
+}
