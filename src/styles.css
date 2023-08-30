@@ -105,3 +105,12 @@ p{
 .social-link{
   color:black
 }
+
+.bg-white:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.bg-white {
+  transition: 0.3s;
+}
