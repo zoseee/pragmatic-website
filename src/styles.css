@@ -106,11 +106,24 @@ p{
   color:black
 }
 
-.bg-white:hover {
+.fab:hover{
+  transform: scale(1.15);
+}
+
+.fab{
+  transition: 0.3s;
+}
+
+
+.rounded-circle:hover {
   cursor: pointer;
   transform: scale(1.15);
 }
 
-.bg-white {
+.rounded-circle {
   transition: 0.3s;
+}
+
+.card{
+  margin: auto;
 }
